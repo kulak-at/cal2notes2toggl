@@ -1,0 +1,17 @@
+{
+  "name": "cal2notes2toggl",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-ical": "^0.6.1",
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  },
+  "scripts": {
+    "test": "mocha **.spec.js"
+  }
+}
