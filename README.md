@@ -1,4 +1,5 @@
 # cal2(notes2toggl)
+[![CircleCI](https://circleci.com/gh/kulak-at/cal2notes2toggl.svg?style=svg)](https://circleci.com/gh/kulak-at/cal2notes2toggl)
 
 CLI application to convert calendar entries into notes2toggl format.
 
