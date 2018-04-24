@@ -1,7 +1,8 @@
 # cal2(notes2toggl)
 [![CircleCI](https://circleci.com/gh/kulak-at/cal2notes2toggl.svg?style=svg)](https://circleci.com/gh/kulak-at/cal2notes2toggl)
 
-CLI application to convert calendar entries into notes2toggl format.
+CLI application to convert calendar entries into
+[notes2toggl](https://github.com/dawiddominiak/notes2toggl) format.
 
 ## Installation
 
@@ -41,3 +42,7 @@ This generates notes for just 20 April 2018.
 
 ## Getting Google Calendar iCal URL
 To get iCal URL go to your Google Calendar settings and copy the link under "Secret address in iCal format".
+
+## Thanks
+Big thanks to [@dawiddominiak](https://github.com/dawiddominiak) for implementation of
+[notes2toggl](https://github.com/dawiddominiak/notes2toggl).

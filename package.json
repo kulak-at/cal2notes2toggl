@@ -1,8 +1,13 @@
 {
   "name": "cal2notes2toggl",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "cal2notes2toggl.js",
   "license": "MIT",
+  "repository": "git@github.com:kulak-at/cal2notes2toggl.git",
+  "author": "kulak@kulak.at",
+  "engines": {
+      "node": ">= 9.0"
+  },
   "dependencies": {
     "node-ical": "^0.6.1",
     "optimist": "^0.6.1"
@@ -13,5 +18,8 @@
   },
   "scripts": {
     "test": "mocha **.spec.js"
+  },
+  "bin": {
+    "cal2notes2toggl": "./cal2notes2toggl.js"
   }
 }
