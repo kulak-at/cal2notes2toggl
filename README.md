@@ -16,15 +16,15 @@ This will generate notes2toggl formatted data to your stdout, for example:
 
 ```text
 18.04.2018
-[16:00 - 17:15] Working on super awesome project
-[10:30 - 12:00] Reading amazing documentation
-[14:00 - 16:00] Talking with great client
+16:00 - 17:15 Working on super awesome project
+10:30 - 12:00 Reading amazing documentation
+14:00 - 16:00 Talking with great client
 
 27.03.2018
-[10:30 - 12:00] Feeling awesome
+10:30 - 12:00 Feeling awesome
 
 17.04.2018
-[16:30 - 18:00] Getting things done
+16:30 - 18:00 Getting things done
 ```
 
 You can forward it to your notes file for example:
