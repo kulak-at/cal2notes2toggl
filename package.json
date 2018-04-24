@@ -1,6 +1,6 @@
 {
   "name": "cal2notes2toggl",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "cal2notes2toggl.js",
   "license": "MIT",
   "repository": "git@github.com:kulak-at/cal2notes2toggl.git",

@@ -12,11 +12,11 @@ describe('class Entry', () => {
 
     it('should generate proper times for entries', () => {
         const entry = new Entry(date1, date2, 'Description');
-        expect(entry.getTimeString()).to.equal('[18:00 - 20:00]');
+        expect(entry.getTimeString()).to.equal('18:00 - 20:00');
     });
 
     it('should generate proper entry string', () => {
         const entry = new Entry(date1, date2, 'Description');
-        expect(entry.toEntryString()).to.equal('[18:00 - 20:00] Description');
+        expect(entry.toEntryString()).to.equal('18:00 - 20:00 Description');
     })
 });

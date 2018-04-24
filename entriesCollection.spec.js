@@ -12,7 +12,7 @@ describe('class EntryCollection', () => {
     it('should generate proper notes (one entry)', () => {
 
         const notes1 = `05.05.2018
-[18:00 - 20:00] Description`;
+18:00 - 20:00 Description`;
         const collection = new EntriesCollection();
         collection.push(new Entry(date1, date2, 'Description'));
         expect(collection.toNotesString()).to.equal(notes1);
@@ -21,10 +21,10 @@ describe('class EntryCollection', () => {
     it('should generate proper notes (two entries on different days)', () => {
 
         const notes2 = `05.05.2018
-[18:00 - 20:00] Description
+18:00 - 20:00 Description
 
 06.05.2018
-[9:00 - 11:00] Description 2`;
+9:00 - 11:00 Description 2`;
         const collection = new EntriesCollection();
         collection.push(new Entry(date1, date2, 'Description'));
         collection.push(new Entry(date3, date4, 'Description 2'));
@@ -34,10 +34,10 @@ describe('class EntryCollection', () => {
     it('should generate proper notes (two entries on different days - reverse order)', () => {
 
         const notes2 = `05.05.2018
-[18:00 - 20:00] Description
+18:00 - 20:00 Description
 
 06.05.2018
-[9:00 - 11:00] Description 2`;
+9:00 - 11:00 Description 2`;
         const collection = new EntriesCollection();
         collection.push(new Entry(date3, date4, 'Description 2'));
         collection.push(new Entry(date1, date2, 'Description'));
@@ -47,7 +47,7 @@ describe('class EntryCollection', () => {
     it('should generate proper notes (with filtering)', () => {
 
         const notes2 = `05.05.2018
-[18:00 - 20:00] Description`;
+18:00 - 20:00 Description`;
         const collection = new EntriesCollection();
         collection.push(new Entry(date3, date4, 'Description 2'));
         collection.push(new Entry(date1, date2, 'Description'));

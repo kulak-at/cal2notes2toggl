@@ -12,7 +12,7 @@ module.exports = class Entry {
     }
 
     getTimeString() {
-        return `[${generateTime(this.start)} - ${generateTime(this.end)}]`
+        return `${generateTime(this.start)} - ${generateTime(this.end)}`
     }
 
     toEntryString() {
